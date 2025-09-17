@@ -38,7 +38,7 @@ API_TOKEN = os.getenv("API_TOKEN")
 FORCE_JOIN_CHANNEL = os.getenv("FORCE_JOIN_CHANNEL")
 ADMIN_ID = os.getenv("ADMIN_ID")
 
-bot = telebot.TeleBot(API_TOKEN)
+bot = telebot.TeleBot(7531146102:AAFhxOtJjlxXA1VLJeyksGX8R5-uRjT1-Do)
 
 # In-memory list to store user IDs
 user_ids = set()
@@ -278,5 +278,6 @@ if __name__ == "__main__":
     # Start the bot polling in a separate thread
     t = Thread(target=bot.polling)
     t.start()
+
 
 
